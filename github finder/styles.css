@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(68, 166, 237);
+    color: white;
+}
+
+.title:hover{
+    cursor:pointer;
+}
+
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateX(10%);
+    transform: translateY(-50%);
+    font-size: 1.3rem;
+}
+
+.Search{
+    position: relative;
+    margin: 15px;
+    height: 100px;
+    border:2px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.Search_Users{
+    opacity: 0.78;
+}
+
+.How_to_Search{
+    margin-top: 5px;
+    color: gray;
+    font-size: 1.1rem;
+}
+
+.search_bar{
+    position: absolute;
+    width: 92%;
+    transform: translateX(10%);
+    transform: translateY(20%);
+    height: 25px;
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-top: 3px;
+    opacity: 0.6;
+}
+
+.profile {
+    position: relative;
+    margin: 15px;
+    height: 240px;
+    border:2px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.left_section{
+    position: absolute;
+}
+
+.profile_pic1{
+    position: absolute;
+    width: 190px;
+    height: 190px;
+}
+
+.view_btn{
+    position: absolute;
+    top:200px;
+    width: 190px;
+    height: 33px;
+    border-radius: 10px;
+    border:1px;
+    color: white;
+    background-color: rgb(68, 166, 237);
+}
+
+.view_btn:hover{
+    background-color: rgb(68, 166, 237);
+    opacity: 0.8;
+    cursor:pointer;
+}
+
+.right_section{
+    position: absolute;
+    width: 63%;
+    right :30px;
+    top:3%;
+}
+
+.list{
+    margin-top: 10px; /* 위쪽 간격 추가 */
+    margin-bottom: 10px;
+    height: 3px;
+}
+
+.profile_info1 li {
+    display: inline-block;
+    font-size: 0.8rem;
+    height: 14px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+.profile_info1 li:nth-child(1) {
+    background-color: rgb(68, 166, 237);
+}
+
+.profile_info1 li:nth-child(2) {
+    background-color: rgba(0, 0, 0, 0.352);
+}
+
+.profile_info1 li:nth-child(3) {
+    background-color: rgb(145, 227, 95);
+}
+
+.profile_info1 li:nth-child(4) {
+    background-color: rgb(58, 140, 165);
+}
+
+.profile_info2 {
+    border: 1px solid #ddd;
+    border-radius:5px;
+}
+
+.profile_info2 li {
+    display: block;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile_info2 li:last-child {
+    border-bottom: none;
+}
+
+.repos{
+    position: relative;
+    margin: 15px;
+}
+
+.profile_info3 {
+    display: flex;
+    position: relative;
+    padding: 8px;
+    margin-top: 7px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.list-group-item-3{
+    width: 100%;
+}
+
+.list-group-item-3 li{
+    display: inline-block;
+    position: relative;
+    font-size: 0.8rem;
+    height: 11px;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8rem;
+
+}
+#repo_name_1,
+#repo_name_2,
+#repo_name_3,
+#repo_name_4,
+#repo_name_5 {
+    display: inline-block;
+    min-width: 400px;
+    color:blue;
+}
+
+#repo_name_1,
+#repo_name_2,
+#repo_name_3,
+#repo_name_4,
+#repo_name_5:hover{
+    cursor:pointer;
+}
+
+.list-group-item-3 li:nth-child(2) {
+    background-color: rgb(68, 166, 237);
+    margin-left: 10px;
+}
+
+.list-group-item-3 li:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.352);
+}
+
+.list-group-item-3 li:nth-child(4) {
+    background-color: rgb(145, 227, 95);
+    
+}
+
+
+.Git_name{
+    margin-top: 40px;
+    position: relative;
+    padding: 20px;
+    height: 20px; 
+    background-color: rgb(235, 235, 235);
+}
