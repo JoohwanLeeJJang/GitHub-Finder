@@ -35,9 +35,9 @@ function fetchUserInfo() {
                         var forksElement = repoElement.querySelector('.list-group-item-3-3 span');
                         
                         repoNameElement.innerText = name;
-                        starsElement.innerText = "Stars: " + stars;
-                        watchersElement.innerText = "Watchers: " + watchers;
-                        forksElement.innerText = "Forks: " + forks;
+                        starsElement.innerText = stars;
+                        watchersElement.innerText = watchers;
+                        forksElement.innerText =  forks;
 
                         repoNameElement.addEventListener('click', function() {
                             window.open('https://github.com/' + userId + '/' + name, '_blank');
